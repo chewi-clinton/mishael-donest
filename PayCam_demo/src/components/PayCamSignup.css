@@ -1,0 +1,325 @@
+
+.payCam_page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d1cbcb;
+  padding: 20px;
+  font-family: "Poppins", "Segoe UI", -apple-system, BlinkMacSystemFont,sans-serif;
+  box-sizing: border-box;
+}
+
+.payamCard {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 880px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 200px 200px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.leftPanel {
+  flex: 1 1 45%;
+  padding: 40px 48px;
+  background: linear-gradient(160deg, #48b833 0%, #117711 60%, #04520c 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.decorativeCircle_top{
+  top: -40px;
+  right: -60px;
+  width: 260px;
+  height: 260px;
+}
+
+.decorativeCircle_mid{
+  top: 40px;
+  right: 20px;
+  width: 160px;
+  height: 160px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.decorativeCircle_bottom {
+  bottom: -60px;
+  left: -60px;
+  width: 220px;
+  height: 220px;
+}
+
+.left-content {
+  position: relative;
+  z-index: 1;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 17px;
+  margin: 0;
+}
+
+.getStarted {
+  font-weight: 800;
+  font-size: 34px;
+  margin: 48px 0 40px 0;
+  letter-spacing: 0.5px;
+}
+
+.paycam-feature {
+  margin-bottom: 28px;
+}
+
+.payCamFeature-title {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+}
+
+.payCamFeature-sub {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 4px 0 0 0;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.left-footer {
+  position: relative;
+  z-index: 1;
+}
+
+.img_container {
+  
+  
+  padding: 18px 16px 12px 16px;
+  width: 100%;
+  height:100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-illustration {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.logo-wordm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.logo-pay {
+  color: #48b833;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.logo-cam {
+  color: #000000;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.logo-tagline {
+  text-align: center;
+  font-size: 8px;
+  color: #48b833;
+  margin: 2px 0 0 0;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+
+
+.rightPanel {
+  flex: 1 1 55%;
+  padding: 40px;
+  background-color: #eef3f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightInnerPanel {
+  padding: 36px 44px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 30px rgba(3, 3, 3, 0.06);
+}
+
+.signin-row {
+  text-align: right;
+  margin-bottom: 8px;
+}
+
+.signin-link {
+  color: #48b833;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+img{
+  width:200px;
+  height:100%;
+  border-radius: 20px;
+
+}
+
+.title {
+  font-weight: 800;
+  font-size: 26px;
+  margin: 0 0 24px 0;
+  color: #000000;
+}
+
+.google-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.Pagedivider {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 0;
+  color: #999;
+  font-size: 12px;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.divider-text {
+  margin: 0 12px;
+}
+
+.paycam-field {
+  margin-bottom: 16px;
+}
+
+.field-label {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.paycam-field-input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.paycam-field-input--light {
+  color: #999;
+}
+
+.paycam-signup-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #48b833;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+
+@media (max-width: 900px) {
+  .paycam-left {
+    padding: 32px 36px;
+  }
+  .paycam-right {
+    padding: 28px;
+  }
+  .paycam-right-inner {
+    padding: 30px 32px;
+  }
+}
+
+/* Mobile: stack panels */
+@media (max-width: 680px) {
+  .paycam-page {
+    padding: 0 !important;
+  }
+  .paycam-card {
+    flex-direction: column;
+    min-height: auto;
+    border-radius: 0;
+    max-width: 100%;
+  }
+  .paycam-left {
+    flex: none;
+    padding: 28px 24px;
+  }
+  .paycam-right {
+    flex: none;
+    padding: 20px;
+  }
+  .paycam-right-inner {
+    padding: 24px 20px;
+  }
+  .paycam-heading {
+    font-size: 22px !important;
+  }
+  .paycam-getstarted {
+    font-size: 26px !important;
+    margin: 28px 0 24px 0 !important;
+  }
+  .paycam-logo-card {
+    width: 190px !important;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .paycam-right-inner {
+    padding: 20px 16px;
+  }
+}
